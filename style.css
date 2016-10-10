@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower|Poiret+One';
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 20px;
+  background-color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 16px;
+  ;
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00d2ff, #3a7bd5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00d2ff, #3a7bd5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  font-size: 2.0em;
+  letter-spacing: 0.25em;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #EC810D;
+  text-shadow: 0.5px 0.5px black;
+  font-family: 'Exo 2', sans-serif;
+  margin-bottom: 0px;
+}
+
+.weather-container {
+  margin: 0 auto;
+  text-align: center;
+  /*   border: 1px solid black; */
+  width: 300px;
+  /*   max-height: 650px; */
+  color: black;
+}
+
+.weather-graphic,
+#weather-description {
+  margin: 20px;
+}
+
+.weather-graphic i {
+  font-size: 5.0em;
+  color: #EC810D;
+}
+
+#temp-text {
+  font-size: 3.5em;
+  width: 70px;
+  height: 25px;
+  text-shadow: 1px 1px #EC810D;
+  display: inline-block;
+}
+
+#temp-units {
+  border: 0;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+#custom-input {
+  font-size: 0.8em;
+  text-shadow: 1px 0px #EC810D;
+  color: black;
+  display: block;
+}
+
+#custom-city-input {
+  margin-bottom: 10px;
+  width: 93%;
+  color: #EC810D;
+  text-align: center;
+  border: 0.5px solid rgb(80, 80, 80);
+}
+
+.city-list select {
+  width: 91%;
+  margin: 0 auto;
+  color: #EC810D;
+  border: 0.5px solid #EC810D;
+}
+
+.description {
+  text-shadow: 1px 1px rgb(170, 170, 170);
+  letter-spacing: 0.1em;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.0em;
+}
+
+.weather-icon {
+  width: 80px;
+  color: #EC810D;
+  text-align: center;
+}
+
+.location-icon {
+  color: #EC810D;
+}
+
+
+/* div {
+  border: 1px solid black;
+} */

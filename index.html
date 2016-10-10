@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>  
+  <script src='./script.js'></script> 
+  <title>Weather now</title>
+</head>
+<body>
+  <div class="weather-container">
+    <h1>Weather now</h1>
+    <div class="output">
+      <h1 id="current-date"></h1>
+      <h3 id="current-city">London</h1>
+      <div id="temperature"><p id="temp-text"></p><button id="temp-units"><span class="cdeg">&deg;C</span> &#124; <span class="fdeg">&deg;F</span></button></div>
+      <div id="weather-description"><p class="description"></p></div>
+      <div class="weather-graphic"><i class='weather-icon'></i></div>
+      <!-- <img class = "weather-icons" src="" alt="live-weather-icon" /> -->
+  <div class="city-list">
+      <label for="location"><i class="fa fa-map-marker location-icon"></i></label>
+      <select name="location">
+        <option value="" id = "ip_location" selected>Current location</option>
+    <option value="London,gb">London, United Kingdom</option>
+    <option value="Athens,GR">Athens, Greece</option>
+    <option value="Barcelona,esp">Barcelona, Spain</option>
+    <option value="Rome,it">Rome, Italy</option>
+    <option value="Stockholm,swe">Stockholm, Sweden</option>
+  </select>
+    </div>
+    <div class="custom-city">
+      <label for="custom-city" id="custom-input"><em>Not in the list?</em></label>
+      <input type="text" id="custom-city-input" placeholder="Enter City, Country code" />
+    </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
