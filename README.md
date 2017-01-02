@@ -10,10 +10,10 @@
 
 - Show temperature in Celsius or Fahrenheit degrees.
 
-###### *Notes*
+###### *Comments*
 
--App deployed on gh-pages but doesn't work properly as github is served on https connection and openweathermap API is served on http connection (service on https only for professional accounts).
+- App deployed on gh-pages but doesn't work properly as github is served on https connection and openweathermap API is served on http connection (service on https only for professional accounts).
 
--As of recently, the Geolocation object that gives Web content access to the location of the device through the browser is not applicable on http connections but only on secure https connections. There are other available APIs that can track location based on IP address (similarly to the API used in this project). 
+- As of recently, the Geolocation object that gives Web content access to the location of the device through the browser is not applicable on http connections but only on secure https connections. There are other available APIs that can track location based on IP address (similarly to the API used in this project). 
 
--This project is part of the FreeCodeCamp front-end course. 
+- This project was created as part of the [freeCodeCamp front-end course](https://www.freecodecamp.com/challenges/show-the-local-weather).
